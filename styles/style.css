@@ -39,9 +39,9 @@
 }
 
 .address {
+  font-style: normal;
   width: 240.52px;
-  height: 98px;
-  right: 25.48px;
+  min-height: 98px;
   top: 5px;
   font-size: 18px;
   line-height: 1.4;
@@ -125,6 +125,7 @@
 
 .bet-button {
   font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
   line-height: 1;
   padding: 14px 32px;
@@ -158,7 +159,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card {
@@ -237,7 +238,7 @@
 }
 
 .about__logo-image {
-  height: 114px;
+  min-height: 114px;
   width: 148px;
 }
 
@@ -259,7 +260,7 @@
 .about__text {
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px
+  line-height: 24px;
 }
 
 .footer {
@@ -271,6 +272,7 @@
 
 .footer__address {
   justify-self: start;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-list {
